@@ -7,6 +7,16 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+## Implantação na Vercel
+
+Este projeto está configurado para ser facilmente implantado na Vercel:
+
+1. Certifique-se de ter uma conta na [Vercel](https://vercel.com)
+2. Instale a CLI da Vercel: `npm i -g vercel`
+3. Execute `vercel login` e faça login na sua conta
+4. No diretório do projeto, execute `vercel` para implantar
+5. Ou conecte o repositório GitHub à Vercel para implantação automática
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
