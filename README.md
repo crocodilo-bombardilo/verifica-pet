@@ -17,6 +17,16 @@ Este projeto está configurado para ser facilmente implantado na Vercel:
 4. No diretório do projeto, execute `vercel` para implantar
 5. Ou conecte o repositório GitHub à Vercel para implantação automática
 
+## Atualizações Recentes
+
+### Correção do Rodapé
+
+- Foi removida a imagem de fundo do rodapé que estava sendo esticada
+- Substituída por uma cor de fundo sólida (background-dark) definida no Tailwind
+- Para implantar esta alteração:
+  1. Execute `npm run build` para construir o projeto
+  2. Execute `vercel --prod` para implantar na produção
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
